@@ -10,5 +10,5 @@ steps:
   settings:
     username: rajmanyapatekar
     password: 71ceb6f2-328e-484f-9d0d-114704e40550b
-    repo: dinorows/dotnetcore-container
+    repo: rajmanyapatekar/dotnetcore-container
     dockerfile: Web/Dockerfile
