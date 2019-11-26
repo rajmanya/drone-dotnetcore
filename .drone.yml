@@ -9,6 +9,6 @@ steps:
   image: plugins/docker
   settings:
     username: rajmanyapatekar
-    password: 71ceb6f2-328e-484f-9d0d-114704e40550b
+    password: d021c2ec-16ee-42cc-a346-8508c900a17d
     repo: rajmanyapatekar/dotnetcore-container
     dockerfile: Web/Dockerfile
