@@ -1,0 +1,14 @@
+kind: pipeline
+
+steps:
+- name: compile
+  image: microsoft/dotnet:sdk
+  commands:
+    - sh build.sh
+- name: build-image
+  image: plugins/docker
+  settings:
+    username: rajmanyapatekar
+    password: 71ceb6f2-328e-484f-9d0d-114704e40550b
+    repo: dinorows/dotnetcore-container
+    dockerfile: Web/Dockerfile
